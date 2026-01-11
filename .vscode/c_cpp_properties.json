@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "path": [
+                    "/opt/ros/humble/include",
+                    "/home/cat/ros2_humble_ws/src/robot_core/include",
+                    "/usr/include/**"
+                ],
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/humble/include/**",
+        "/home/cat/ros2_humble_ws/src/robot_core/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-arm64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

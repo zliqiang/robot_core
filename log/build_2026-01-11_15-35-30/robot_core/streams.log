@@ -1,0 +1,47 @@
+[0.033s] Invoking command in '/home/cat/ros2_humble_ws/build/robot_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cat/ros2_humble_ws/build/robot_core -- -j8 -l8
+[0.130s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.545s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.589s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.677s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.683s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.699s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.724s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.759s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.847s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.851s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.056s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.201s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.471s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.471s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/cat/ros2_humble_ws/src/robot_core/include>
+[1.471s] -- Configured cppcheck exclude dirs and/or files: 
+[1.472s] -- Added test 'lint_cmake' to check CMake code style
+[1.474s] -- Added test 'uncrustify' to check C / C++ code style
+[1.475s] -- Configured uncrustify additional arguments: 
+[1.475s] -- Added test 'xmllint' to check XML markup files
+[1.478s] -- Configuring done
+[1.499s] -- Generating done
+[1.508s] -- Build files have been written to: /home/cat/ros2_humble_ws/build/robot_core
+[1.641s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_controller.dir/src/robot_controller.cpp.o[0m
+[1.784s] [100%] [32m[1mLinking CXX executable robot_controller[0m
+[2.081s] [100%] Built target robot_controller
+[2.135s] Invoked command in '/home/cat/ros2_humble_ws/build/robot_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cat/ros2_humble_ws/build/robot_core -- -j8 -l8
+[2.184s] Invoking command in '/home/cat/ros2_humble_ws/build/robot_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cat/ros2_humble_ws/build/robot_core
+[2.206s] -- Install configuration: ""
+[2.207s] -- Execute custom install script
+[2.208s] -- Symlinking: /home/cat/ros2_humble_ws/install/robot_core/lib/robot_core/robot_controller
+[2.239s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/ament_index/resource_index/package_run_dependencies/robot_core
+[2.240s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/ament_index/resource_index/parent_prefix_path/robot_core
+[2.241s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/environment/ament_prefix_path.sh
+[2.244s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/environment/ament_prefix_path.dsv
+[2.247s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/environment/path.sh
+[2.248s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/environment/path.dsv
+[2.249s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/local_setup.bash
+[2.250s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/local_setup.sh
+[2.251s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/local_setup.zsh
+[2.252s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/local_setup.dsv
+[2.254s] -- Symlinking: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/package.dsv
+[2.277s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/ament_index/resource_index/packages/robot_core
+[2.278s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/cmake/robot_coreConfig.cmake
+[2.278s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/cmake/robot_coreConfig-version.cmake
+[2.279s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/package.xml
+[2.288s] Invoked command in '/home/cat/ros2_humble_ws/build/robot_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cat/ros2_humble_ws/build/robot_core

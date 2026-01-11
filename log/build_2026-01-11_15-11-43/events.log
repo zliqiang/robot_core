@@ -1,0 +1,67 @@
+[0.000000] (-) TimerEvent: {}
+[0.003348] (robot_core) JobQueued: {'identifier': 'robot_core', 'dependencies': OrderedDict()}
+[0.004362] (robot_core) JobStarted: {'identifier': 'robot_core'}
+[0.031626] (robot_core) JobProgress: {'identifier': 'robot_core', 'progress': 'cmake'}
+[0.035229] (robot_core) Command: {'cmd': ['/usr/bin/cmake', '/home/cat/ros2_humble_ws/src/robot_core', '-DCMAKE_INSTALL_PREFIX=/home/cat/ros2_humble_ws/install/robot_core'], 'cwd': '/home/cat/ros2_humble_ws/build/robot_core', 'env': OrderedDict([('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('USER', 'cat'), ('SSH_CLIENT', '192.168.1.7 61999 22'), ('WESTON_FREEZE_DISPLAY', '/tmp/.freeze_weston'), ('XDG_SESSION_TYPE', 'tty'), ('WESTON_DISABLE_ATOMIC', '1'), ('SHLVL', '1'), ('USB_FUNCS', 'rndis'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/cat/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/cat'), ('OLDPWD', '/home/cat/ros2_humble_ws/src/robot_core/src/can_interface'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-3308aa64-c8b6-4860-bcb7-90c160018789.sock'), ('GST_INSPECT_NO_COLORS', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('PLAYBIN2_PREFERRED_VIDEOSINK', 'xvimagesink'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('GST_VIDEO_DECODER_QOS', '0'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QTWEBENGINE_CHROMIUM_FLAGS', '--no-sandbox --disable-es3-gl-context --ignore-gpu-blacklist --ignore-gpu-blocklist --enable-accelerated-video-decode'), ('COLCON_PREFIX_PATH', '/home/cat/ros2_humble_ws/install'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'cat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('WESTON_DRM_MIN_BUFFERS', '2'), ('XDG_SESSION_CLASS', 'user'), ('WESTON_DRM_KEEP_RATIO', '1'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('XDG_SESSION_ID', 'c2'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('XSERVER_FREEZE_DISPLAY', '/tmp/.freeze_xserver'), ('PATH', '/home/cat/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/cat/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/cat/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GST_GL_PLATFORM', 'egl'), ('WL_OUTPUT_VERSION', '3'), ('GST_DEBUG_NO_COLOR', '1'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('ADBD_SHELL', '/bin/bash'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/home/cat/ros2_humble_ws/install/robot_core:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('UMS_RO', '0'), ('UMS_FSTYPE', 'vfat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cat/ros2_humble_ws/build/robot_core'), ('SSH_CONNECTION', '192.168.1.7 61999 192.168.1.46 22'), ('AUTOVIDEOSINK_PREFERRED', 'xvimagesink'), ('WESTON_DRM_MIRROR', '1'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('ADB_TCP_PORT', '5555'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('UMS_MOUNT', '0'), ('COLCON', '1'), ('PULSE_HOME', '/userdata/.pulse'), ('CMAKE_PREFIX_PATH', '/home/cat/ros2_humble_ws/install/robot_core:/opt/ros/humble'), ('UMS_FILE', '/ums_shared.img')]), 'shell': False}
+[0.080550] (robot_core) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099242] (-) TimerEvent: {}
+[0.200892] (-) TimerEvent: {}
+[0.302959] (-) TimerEvent: {}
+[0.404617] (-) TimerEvent: {}
+[0.505817] (-) TimerEvent: {}
+[0.574755] (robot_core) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.599465] (robot_core) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.606089] (-) TimerEvent: {}
+[0.705243] (robot_core) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.706377] (-) TimerEvent: {}
+[0.717953] (robot_core) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.740058] (robot_core) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.774856] (robot_core) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.806853] (-) TimerEvent: {}
+[0.820288] (robot_core) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.907214] (-) TimerEvent: {}
+[0.941757] (robot_core) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.947813] (robot_core) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.007582] (-) TimerEvent: {}
+[1.109008] (-) TimerEvent: {}
+[1.210336] (-) TimerEvent: {}
+[1.216605] (robot_core) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.290877] (robot_core) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.310818] (-) TimerEvent: {}
+[1.379797] (robot_core) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.401758] (robot_core) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.411184] (-) TimerEvent: {}
+[1.512631] (-) TimerEvent: {}
+[1.614076] (-) TimerEvent: {}
+[1.708692] (robot_core) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.709313] (robot_core) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.714142] (-) TimerEvent: {}
+[1.814727] (-) TimerEvent: {}
+[1.915513] (-) TimerEvent: {}
+[1.977599] (robot_core) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.980969] (robot_core) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.015764] (-) TimerEvent: {}
+[2.116480] (-) TimerEvent: {}
+[2.164881] (robot_core) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:14 (find_package):\n'}
+[2.165559] (robot_core) StderrLine: {'line': b'  By not providing "Findcan_interface.cmake" in CMAKE_MODULE_PATH this\n'}
+[2.166457] (robot_core) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[2.166954] (robot_core) StderrLine: {'line': b'  "can_interface", but CMake did not find one.\n'}
+[2.167469] (robot_core) StderrLine: {'line': b'\n'}
+[2.167893] (robot_core) StderrLine: {'line': b'  Could not find a package configuration file provided by "can_interface"\n'}
+[2.168444] (robot_core) StderrLine: {'line': b'  with any of the following names:\n'}
+[2.169034] (robot_core) StderrLine: {'line': b'\n'}
+[2.169724] (robot_core) StderrLine: {'line': b'    can_interfaceConfig.cmake\n'}
+[2.170722] (robot_core) StderrLine: {'line': b'    can_interface-config.cmake\n'}
+[2.171688] (robot_core) StderrLine: {'line': b'\n'}
+[2.172534] (robot_core) StderrLine: {'line': b'  Add the installation prefix of "can_interface" to CMAKE_PREFIX_PATH or set\n'}
+[2.173248] (robot_core) StderrLine: {'line': b'  "can_interface_DIR" to a directory containing one of the above files.  If\n'}
+[2.173926] (robot_core) StderrLine: {'line': b'  "can_interface" provides a separate development package or SDK, be sure it\n'}
+[2.174508] (robot_core) StderrLine: {'line': b'  has been installed.\n'}
+[2.175090] (robot_core) StderrLine: {'line': b'\n'}
+[2.175713] (robot_core) StderrLine: {'line': b'\x1b[0m\n'}
+[2.176393] (robot_core) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.177058] (robot_core) StdoutLine: {'line': b'See also "/home/cat/ros2_humble_ws/build/robot_core/CMakeFiles/CMakeOutput.log".\n'}
+[2.192542] (robot_core) CommandEnded: {'returncode': 1}
+[2.218188] (-) TimerEvent: {}
+[2.243978] (robot_core) JobEnded: {'identifier': 'robot_core', 'rc': 1}
+[2.256006] (-) EventReactorShutdown: {}

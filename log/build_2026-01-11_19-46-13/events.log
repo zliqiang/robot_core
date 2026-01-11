@@ -1,0 +1,177 @@
+[0.000000] (-) TimerEvent: {}
+[0.003066] (robot_core) JobQueued: {'identifier': 'robot_core', 'dependencies': OrderedDict()}
+[0.003383] (robot_core) JobStarted: {'identifier': 'robot_core'}
+[0.027815] (robot_core) JobProgress: {'identifier': 'robot_core', 'progress': 'cmake'}
+[0.033011] (robot_core) JobProgress: {'identifier': 'robot_core', 'progress': 'build'}
+[0.033384] (robot_core) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cat/ros2_humble_ws/build/robot_core', '--', '-j8', '-l8'], 'cwd': '/home/cat/ros2_humble_ws/build/robot_core', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('USER', 'cat'), ('SSH_CLIENT', '192.168.1.7 59733 22'), ('WESTON_FREEZE_DISPLAY', '/tmp/.freeze_weston'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/cat/.vscode-server/cli/servers/Stable-94e8ae2b28cb5cc932b86e1070569c4463565c37/server/extensions/git/dist/askpass.sh'), ('WESTON_DISABLE_ATOMIC', '1'), ('SHLVL', '1'), ('USB_FUNCS', 'rndis'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/cat/.vscode-server/cli/servers/Stable-94e8ae2b28cb5cc932b86e1070569c4463565c37/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/cat'), ('OLDPWD', '/home/cat/ros2_humble_ws/msg'), ('TERM_PROGRAM_VERSION', '1.108.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-76538fa4-c422-404f-b4d3-d5f44d23916e.sock'), ('GST_INSPECT_NO_COLORS', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('PLAYBIN2_PREFERRED_VIDEOSINK', 'xvimagesink'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/cat/.vscode-server/cli/servers/Stable-94e8ae2b28cb5cc932b86e1070569c4463565c37/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/cat/.vscode-server/cli/servers/Stable-94e8ae2b28cb5cc932b86e1070569c4463565c37/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('GST_VIDEO_DECODER_QOS', '0'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/cat/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QTWEBENGINE_CHROMIUM_FLAGS', '--no-sandbox --disable-es3-gl-context --ignore-gpu-blacklist --ignore-gpu-blocklist --enable-accelerated-video-decode'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'cat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('WESTON_DRM_MIN_BUFFERS', '2'), ('XDG_SESSION_CLASS', 'user'), ('WESTON_DRM_KEEP_RATIO', '1'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('XDG_SESSION_ID', 'c3'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('XSERVER_FREEZE_DISPLAY', '/tmp/.freeze_xserver'), ('PATH', '/home/cat/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/cat/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/cat/.vscode-server/cli/servers/Stable-94e8ae2b28cb5cc932b86e1070569c4463565c37/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/cat/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GST_GL_PLATFORM', 'egl'), ('WL_OUTPUT_VERSION', '3'), ('GST_DEBUG_NO_COLOR', '1'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('ADBD_SHELL', '/bin/bash'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/cat/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-786e2449324aaefe.txt'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/home/cat/.vscode-server/data/User/workspaceStorage/e74405932eb39a04e821a639f5a110bc/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7675fea67e.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('UMS_RO', '0'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('UMS_FSTYPE', 'vfat'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cat/ros2_humble_ws/build/robot_core'), ('SSH_CONNECTION', '192.168.1.7 59733 192.168.1.46 22'), ('AUTOVIDEOSINK_PREFERRED', 'xvimagesink'), ('WESTON_DRM_MIRROR', '1'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('ADB_TCP_PORT', '5555'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('UMS_MOUNT', '0'), ('COLCON', '1'), ('PULSE_HOME', '/userdata/.pulse'), ('UMS_FILE', '/ums_shared.img'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098938] (-) TimerEvent: {}
+[0.186705] (robot_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target can_interface\x1b[0m\n'}
+[0.199282] (-) TimerEvent: {}
+[0.203424] (robot_core) StdoutLine: {'line': b'[ 50%] Built target robot_controller\n'}
+[0.253799] (robot_core) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/can_interface.dir/src/can_interface.cpp.o\x1b[0m\n'}
+[0.299565] (-) TimerEvent: {}
+[0.400588] (-) TimerEvent: {}
+[0.501653] (-) TimerEvent: {}
+[0.602632] (-) TimerEvent: {}
+[0.703632] (-) TimerEvent: {}
+[0.804861] (-) TimerEvent: {}
+[0.905887] (-) TimerEvent: {}
+[1.006936] (-) TimerEvent: {}
+[1.108053] (-) TimerEvent: {}
+[1.209022] (-) TimerEvent: {}
+[1.309912] (-) TimerEvent: {}
+[1.410903] (-) TimerEvent: {}
+[1.511916] (-) TimerEvent: {}
+[1.612913] (-) TimerEvent: {}
+[1.713858] (-) TimerEvent: {}
+[1.814816] (-) TimerEvent: {}
+[1.915894] (-) TimerEvent: {}
+[2.016779] (-) TimerEvent: {}
+[2.117800] (-) TimerEvent: {}
+[2.218837] (-) TimerEvent: {}
+[2.319896] (-) TimerEvent: {}
+[2.420815] (-) TimerEvent: {}
+[2.521814] (-) TimerEvent: {}
+[2.622717] (-) TimerEvent: {}
+[2.723626] (-) TimerEvent: {}
+[2.824554] (-) TimerEvent: {}
+[2.925633] (-) TimerEvent: {}
+[3.026538] (-) TimerEvent: {}
+[3.127504] (-) TimerEvent: {}
+[3.228424] (-) TimerEvent: {}
+[3.329339] (-) TimerEvent: {}
+[3.430404] (-) TimerEvent: {}
+[3.531412] (-) TimerEvent: {}
+[3.632363] (-) TimerEvent: {}
+[3.733364] (-) TimerEvent: {}
+[3.834280] (-) TimerEvent: {}
+[3.935257] (-) TimerEvent: {}
+[4.036208] (-) TimerEvent: {}
+[4.137255] (-) TimerEvent: {}
+[4.238234] (-) TimerEvent: {}
+[4.339250] (-) TimerEvent: {}
+[4.440266] (-) TimerEvent: {}
+[4.541330] (-) TimerEvent: {}
+[4.642294] (-) TimerEvent: {}
+[4.748648] (-) TimerEvent: {}
+[4.849780] (-) TimerEvent: {}
+[4.950854] (-) TimerEvent: {}
+[5.051839] (-) TimerEvent: {}
+[5.152761] (-) TimerEvent: {}
+[5.253777] (-) TimerEvent: {}
+[5.354819] (-) TimerEvent: {}
+[5.455898] (-) TimerEvent: {}
+[5.557024] (-) TimerEvent: {}
+[5.658147] (-) TimerEvent: {}
+[5.759049] (-) TimerEvent: {}
+[5.860138] (-) TimerEvent: {}
+[5.961292] (-) TimerEvent: {}
+[6.062377] (-) TimerEvent: {}
+[6.163687] (-) TimerEvent: {}
+[6.264798] (-) TimerEvent: {}
+[6.365881] (-) TimerEvent: {}
+[6.466892] (-) TimerEvent: {}
+[6.567881] (-) TimerEvent: {}
+[6.668840] (-) TimerEvent: {}
+[6.770060] (-) TimerEvent: {}
+[6.871153] (-) TimerEvent: {}
+[6.972347] (-) TimerEvent: {}
+[7.073992] (-) TimerEvent: {}
+[7.175404] (-) TimerEvent: {}
+[7.277027] (-) TimerEvent: {}
+[7.378504] (-) TimerEvent: {}
+[7.479994] (-) TimerEvent: {}
+[7.581479] (-) TimerEvent: {}
+[7.682875] (-) TimerEvent: {}
+[7.784369] (-) TimerEvent: {}
+[7.885926] (-) TimerEvent: {}
+[7.987275] (-) TimerEvent: {}
+[8.088161] (-) TimerEvent: {}
+[8.189293] (-) TimerEvent: {}
+[8.290821] (-) TimerEvent: {}
+[8.392233] (-) TimerEvent: {}
+[8.493727] (-) TimerEvent: {}
+[8.595138] (-) TimerEvent: {}
+[8.696568] (-) TimerEvent: {}
+[8.798063] (-) TimerEvent: {}
+[8.899500] (-) TimerEvent: {}
+[9.001017] (-) TimerEvent: {}
+[9.102483] (-) TimerEvent: {}
+[9.203474] (-) TimerEvent: {}
+[9.304902] (-) TimerEvent: {}
+[9.406329] (-) TimerEvent: {}
+[9.507736] (-) TimerEvent: {}
+[9.609134] (-) TimerEvent: {}
+[9.710555] (-) TimerEvent: {}
+[9.811958] (-) TimerEvent: {}
+[9.912873] (-) TimerEvent: {}
+[9.940202] (robot_core) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cat/ros2_humble_ws/src/robot_core/src/can_interface.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KCanInterfaceNode::CanInterfaceNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.942166] (robot_core) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cat/ros2_humble_ws/src/robot_core/src/can_interface.cpp:31:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kbitrate\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.944038] (robot_core) StderrLine: {'line': b'   31 |         int \x1b[01;35m\x1b[Kbitrate\x1b[m\x1b[K = this->get_parameter("bitrate").as_int();\n'}
+[9.945129] (robot_core) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.946277] (robot_core) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cat/ros2_humble_ws/src/robot_core/src/can_interface.cpp:32:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ksample_point\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.947501] (robot_core) StderrLine: {'line': b'   32 |         double \x1b[01;35m\x1b[Ksample_point\x1b[m\x1b[K = this->get_parameter("sample_point").as_double();\n'}
+[9.948566] (robot_core) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.949391] (robot_core) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cat/ros2_humble_ws/src/robot_core/src/can_interface.cpp:33:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Krestart_ms\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.950293] (robot_core) StderrLine: {'line': b'   33 |         int \x1b[01;35m\x1b[Krestart_ms\x1b[m\x1b[K = this->get_parameter("restart_ms").as_int();\n'}
+[9.950809] (robot_core) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.951300] (robot_core) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cat/ros2_humble_ws/src/robot_core/src/can_interface.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.951705] (robot_core) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cat/ros2_humble_ws/src/robot_core/src/can_interface.cpp:48:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.952111] (robot_core) StderrLine: {'line': b'   48 | int main(\x1b[01;35m\x1b[Kint argc\x1b[m\x1b[K, char ** argv)\n'}
+[9.952507] (robot_core) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K~~~~^~~~\x1b[m\x1b[K\n'}
+[9.952891] (robot_core) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cat/ros2_humble_ws/src/robot_core/src/can_interface.cpp:48:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargv\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.953301] (robot_core) StderrLine: {'line': b'   48 | int main(int argc, \x1b[01;35m\x1b[Kchar ** argv\x1b[m\x1b[K)\n'}
+[9.953914] (robot_core) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[10.013265] (-) TimerEvent: {}
+[10.114707] (-) TimerEvent: {}
+[10.216102] (-) TimerEvent: {}
+[10.317548] (-) TimerEvent: {}
+[10.418989] (-) TimerEvent: {}
+[10.520409] (-) TimerEvent: {}
+[10.621916] (-) TimerEvent: {}
+[10.723319] (-) TimerEvent: {}
+[10.824688] (-) TimerEvent: {}
+[10.926176] (-) TimerEvent: {}
+[11.027612] (-) TimerEvent: {}
+[11.129004] (-) TimerEvent: {}
+[11.230429] (-) TimerEvent: {}
+[11.331888] (-) TimerEvent: {}
+[11.433348] (-) TimerEvent: {}
+[11.534833] (-) TimerEvent: {}
+[11.636784] (-) TimerEvent: {}
+[11.646773] (robot_core) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable can_interface\x1b[0m\n'}
+[11.737107] (-) TimerEvent: {}
+[11.838590] (-) TimerEvent: {}
+[11.940098] (-) TimerEvent: {}
+[12.041971] (-) TimerEvent: {}
+[12.143755] (-) TimerEvent: {}
+[12.244873] (-) TimerEvent: {}
+[12.316985] (robot_core) StdoutLine: {'line': b'[100%] Built target can_interface\n'}
+[12.345260] (-) TimerEvent: {}
+[12.350441] (robot_core) CommandEnded: {'returncode': 0}
+[12.354235] (robot_core) JobProgress: {'identifier': 'robot_core', 'progress': 'install'}
+[12.376771] (robot_core) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cat/ros2_humble_ws/build/robot_core'], 'cwd': '/home/cat/ros2_humble_ws/build/robot_core', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('USER', 'cat'), ('SSH_CLIENT', '192.168.1.7 59733 22'), ('WESTON_FREEZE_DISPLAY', '/tmp/.freeze_weston'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/cat/.vscode-server/cli/servers/Stable-94e8ae2b28cb5cc932b86e1070569c4463565c37/server/extensions/git/dist/askpass.sh'), ('WESTON_DISABLE_ATOMIC', '1'), ('SHLVL', '1'), ('USB_FUNCS', 'rndis'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/cat/.vscode-server/cli/servers/Stable-94e8ae2b28cb5cc932b86e1070569c4463565c37/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/cat'), ('OLDPWD', '/home/cat/ros2_humble_ws/msg'), ('TERM_PROGRAM_VERSION', '1.108.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-76538fa4-c422-404f-b4d3-d5f44d23916e.sock'), ('GST_INSPECT_NO_COLORS', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('PLAYBIN2_PREFERRED_VIDEOSINK', 'xvimagesink'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/cat/.vscode-server/cli/servers/Stable-94e8ae2b28cb5cc932b86e1070569c4463565c37/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/cat/.vscode-server/cli/servers/Stable-94e8ae2b28cb5cc932b86e1070569c4463565c37/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('GST_VIDEO_DECODER_QOS', '0'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/cat/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QTWEBENGINE_CHROMIUM_FLAGS', '--no-sandbox --disable-es3-gl-context --ignore-gpu-blacklist --ignore-gpu-blocklist --enable-accelerated-video-decode'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'cat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('WESTON_DRM_MIN_BUFFERS', '2'), ('XDG_SESSION_CLASS', 'user'), ('WESTON_DRM_KEEP_RATIO', '1'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('XDG_SESSION_ID', 'c3'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('XSERVER_FREEZE_DISPLAY', '/tmp/.freeze_xserver'), ('PATH', '/home/cat/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/cat/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/cat/.vscode-server/cli/servers/Stable-94e8ae2b28cb5cc932b86e1070569c4463565c37/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/cat/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GST_GL_PLATFORM', 'egl'), ('WL_OUTPUT_VERSION', '3'), ('GST_DEBUG_NO_COLOR', '1'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('ADBD_SHELL', '/bin/bash'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/cat/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-786e2449324aaefe.txt'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/home/cat/.vscode-server/data/User/workspaceStorage/e74405932eb39a04e821a639f5a110bc/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7675fea67e.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('UMS_RO', '0'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('UMS_FSTYPE', 'vfat'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cat/ros2_humble_ws/build/robot_core'), ('SSH_CONNECTION', '192.168.1.7 59733 192.168.1.46 22'), ('AUTOVIDEOSINK_PREFERRED', 'xvimagesink'), ('WESTON_DRM_MIRROR', '1'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('ADB_TCP_PORT', '5555'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('UMS_MOUNT', '0'), ('COLCON', '1'), ('PULSE_HOME', '/userdata/.pulse'), ('UMS_FILE', '/ums_shared.img'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[12.404746] (robot_core) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.406794] (robot_core) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.409811] (robot_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/lib/robot_core/robot_controller\n'}
+[12.411547] (robot_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/lib/robot_core/can_interface\n'}
+[12.414607] (robot_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/ament_index/resource_index/package_run_dependencies/robot_core\n'}
+[12.415389] (robot_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/ament_index/resource_index/parent_prefix_path/robot_core\n'}
+[12.416015] (robot_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/environment/ament_prefix_path.sh\n'}
+[12.416577] (robot_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/environment/ament_prefix_path.dsv\n'}
+[12.417073] (robot_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/environment/path.sh\n'}
+[12.417678] (robot_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/environment/path.dsv\n'}
+[12.418332] (robot_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/local_setup.bash\n'}
+[12.418829] (robot_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/local_setup.sh\n'}
+[12.419299] (robot_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/local_setup.zsh\n'}
+[12.419761] (robot_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/local_setup.dsv\n'}
+[12.420219] (robot_core) StdoutLine: {'line': b'-- Symlinking: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/package.dsv\n'}
+[12.441953] (robot_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/ament_index/resource_index/packages/robot_core\n'}
+[12.443260] (robot_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/cmake/robot_coreConfig.cmake\n'}
+[12.443841] (robot_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/cmake/robot_coreConfig-version.cmake\n'}
+[12.444337] (robot_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/package.xml\n'}
+[12.445382] (-) TimerEvent: {}
+[12.449335] (robot_core) CommandEnded: {'returncode': 0}
+[12.546063] (-) TimerEvent: {}
+[12.571503] (robot_core) JobEnded: {'identifier': 'robot_core', 'rc': 0}
+[12.607084] (-) EventReactorShutdown: {}

@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target robot_controller[0m
+[35m[1mConsolidate compiler generated dependencies of target can_interface[0m
+[ 50%] Built target robot_controller
+[ 75%] [32mBuilding CXX object CMakeFiles/can_interface.dir/src/can_interface.cpp.o[0m
+[01m[K/home/cat/ros2_humble_ws/src/robot_core/src/can_interface.cpp:[m[K In constructor ‘[01m[KCanInterfaceNode::CanInterfaceNode()[m[K’:
+[01m[K/home/cat/ros2_humble_ws/src/robot_core/src/can_interface.cpp:36:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitialize_can[m[K’ was not declared in this scope
+   36 |         if(![01;31m[Kinitialize_can[m[K(can_interface, bitrate, sample_point, restart_ms))
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/cat/ros2_humble_ws/src/robot_core/src/can_interface.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/cat/ros2_humble_ws/src/robot_core/src/can_interface.cpp:48:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   48 | int main([01;35m[Kint argc[m[K, char ** argv)
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/cat/ros2_humble_ws/src/robot_core/src/can_interface.cpp:48:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   48 | int main(int argc, [01;35m[Kchar ** argv[m[K)
+      |                    [01;35m[K~~~~~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/can_interface.dir/build.make:76: CMakeFiles/can_interface.dir/src/can_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/can_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

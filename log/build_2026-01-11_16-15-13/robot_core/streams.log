@@ -1,0 +1,11 @@
+[0.039s] Invoking command in '/home/cat/ros2_humble_ws/build/robot_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cat/ros2_humble_ws/build/robot_core -- -j8 -l8
+[0.250s] [ 75%] [32mBuilding CXX object CMakeFiles/can_interface.dir/src/can_interface.cpp.o[0m
+[0.251s] [ 75%] Built target robot_controller
+[0.298s] [01m[K/home/cat/ros2_humble_ws/src/robot_core/src/can_interface.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kcan_interface.hpp: No such file or directory
+[0.298s]     1 | #include [01;31m[K"can_interface.hpp"[m[K
+[0.299s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.300s] compilation terminated.
+[0.301s] gmake[2]: *** [CMakeFiles/can_interface.dir/build.make:76: CMakeFiles/can_interface.dir/src/can_interface.cpp.o] Error 1
+[0.302s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/can_interface.dir/all] Error 2
+[0.303s] gmake: *** [Makefile:146: all] Error 2
+[0.308s] Invoked command in '/home/cat/ros2_humble_ws/build/robot_core' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cat/ros2_humble_ws/build/robot_core -- -j8 -l8

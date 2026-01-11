@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/cat/ros2_humble_ws/build/robot_core/robot_controller" "/home/cat/ros2_humble_ws/build/robot_core/can_interface" "TARGETS" "robot_controller" "can_interface" "DESTINATION" "lib/robot_core")

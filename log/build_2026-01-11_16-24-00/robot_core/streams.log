@@ -1,0 +1,35 @@
+[0.039s] Invoking command in '/home/cat/ros2_humble_ws/build/robot_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cat/ros2_humble_ws/build/robot_core -- -j8 -l8
+[0.184s] [35m[1mConsolidate compiler generated dependencies of target can_interface[0m
+[0.230s] [ 50%] Built target robot_controller
+[0.245s] [ 75%] [32mBuilding CXX object CMakeFiles/can_interface.dir/src/can_interface.cpp.o[0m
+[9.798s] [01m[K/home/cat/ros2_humble_ws/src/robot_core/src/can_interface.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[9.799s] [01m[K/home/cat/ros2_humble_ws/src/robot_core/src/can_interface.cpp:5:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.800s]     5 | int main([01;35m[Kint argc[m[K, char ** argv)
+[9.801s]       |          [01;35m[K~~~~^~~~[m[K
+[9.801s] [01m[K/home/cat/ros2_humble_ws/src/robot_core/src/can_interface.cpp:5:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.802s]     5 | int main(int argc, [01;35m[Kchar ** argv[m[K)
+[9.802s]       |                    [01;35m[K~~~~~~~~^~~~[m[K
+[11.537s] [100%] [32m[1mLinking CXX executable can_interface[0m
+[11.998s] [100%] Built target can_interface
+[12.040s] Invoked command in '/home/cat/ros2_humble_ws/build/robot_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cat/ros2_humble_ws/build/robot_core -- -j8 -l8
+[12.084s] Invoking command in '/home/cat/ros2_humble_ws/build/robot_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cat/ros2_humble_ws/build/robot_core
+[12.111s] -- Install configuration: ""
+[12.114s] -- Execute custom install script
+[12.115s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/lib/robot_core/robot_controller
+[12.115s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/lib/robot_core/can_interface
+[12.116s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/ament_index/resource_index/package_run_dependencies/robot_core
+[12.122s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/ament_index/resource_index/parent_prefix_path/robot_core
+[12.123s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/environment/ament_prefix_path.sh
+[12.130s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/environment/ament_prefix_path.dsv
+[12.132s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/environment/path.sh
+[12.133s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/environment/path.dsv
+[12.134s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/local_setup.bash
+[12.135s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/local_setup.sh
+[12.137s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/local_setup.zsh
+[12.138s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/local_setup.dsv
+[12.139s] -- Symlinking: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/package.dsv
+[12.152s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/ament_index/resource_index/packages/robot_core
+[12.153s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/cmake/robot_coreConfig.cmake
+[12.153s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/cmake/robot_coreConfig-version.cmake
+[12.154s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/package.xml
+[12.162s] Invoked command in '/home/cat/ros2_humble_ws/build/robot_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cat/ros2_humble_ws/build/robot_core

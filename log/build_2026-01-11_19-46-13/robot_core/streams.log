@@ -1,0 +1,45 @@
+[0.039s] Invoking command in '/home/cat/ros2_humble_ws/build/robot_core': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cat/ros2_humble_ws/build/robot_core -- -j8 -l8
+[0.184s] [35m[1mConsolidate compiler generated dependencies of target can_interface[0m
+[0.201s] [ 50%] Built target robot_controller
+[0.251s] [ 75%] [32mBuilding CXX object CMakeFiles/can_interface.dir/src/can_interface.cpp.o[0m
+[9.938s] [01m[K/home/cat/ros2_humble_ws/src/robot_core/src/can_interface.cpp:[m[K In constructor ‘[01m[KCanInterfaceNode::CanInterfaceNode()[m[K’:
+[9.940s] [01m[K/home/cat/ros2_humble_ws/src/robot_core/src/can_interface.cpp:31:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbitrate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.941s]    31 |         int [01;35m[Kbitrate[m[K = this->get_parameter("bitrate").as_int();
+[9.942s]       |             [01;35m[K^~~~~~~[m[K
+[9.944s] [01m[K/home/cat/ros2_humble_ws/src/robot_core/src/can_interface.cpp:32:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksample_point[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.945s]    32 |         double [01;35m[Ksample_point[m[K = this->get_parameter("sample_point").as_double();
+[9.946s]       |                [01;35m[K^~~~~~~~~~~~[m[K
+[9.947s] [01m[K/home/cat/ros2_humble_ws/src/robot_core/src/can_interface.cpp:33:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krestart_ms[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.947s]    33 |         int [01;35m[Krestart_ms[m[K = this->get_parameter("restart_ms").as_int();
+[9.948s]       |             [01;35m[K^~~~~~~~~~[m[K
+[9.948s] [01m[K/home/cat/ros2_humble_ws/src/robot_core/src/can_interface.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[9.949s] [01m[K/home/cat/ros2_humble_ws/src/robot_core/src/can_interface.cpp:48:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.949s]    48 | int main([01;35m[Kint argc[m[K, char ** argv)
+[9.949s]       |          [01;35m[K~~~~^~~~[m[K
+[9.950s] [01m[K/home/cat/ros2_humble_ws/src/robot_core/src/can_interface.cpp:48:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.950s]    48 | int main(int argc, [01;35m[Kchar ** argv[m[K)
+[9.951s]       |                    [01;35m[K~~~~~~~~^~~~[m[K
+[11.644s] [100%] [32m[1mLinking CXX executable can_interface[0m
+[12.314s] [100%] Built target can_interface
+[12.348s] Invoked command in '/home/cat/ros2_humble_ws/build/robot_core' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cat/ros2_humble_ws/build/robot_core -- -j8 -l8
+[12.378s] Invoking command in '/home/cat/ros2_humble_ws/build/robot_core': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cat/ros2_humble_ws/build/robot_core
+[12.402s] -- Install configuration: ""
+[12.405s] -- Execute custom install script
+[12.408s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/lib/robot_core/robot_controller
+[12.411s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/lib/robot_core/can_interface
+[12.412s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/ament_index/resource_index/package_run_dependencies/robot_core
+[12.412s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/ament_index/resource_index/parent_prefix_path/robot_core
+[12.413s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/environment/ament_prefix_path.sh
+[12.413s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/environment/ament_prefix_path.dsv
+[12.414s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/environment/path.sh
+[12.415s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/environment/path.dsv
+[12.415s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/local_setup.bash
+[12.416s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/local_setup.sh
+[12.416s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/local_setup.zsh
+[12.417s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/local_setup.dsv
+[12.417s] -- Symlinking: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/package.dsv
+[12.440s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/ament_index/resource_index/packages/robot_core
+[12.440s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/cmake/robot_coreConfig.cmake
+[12.441s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/cmake/robot_coreConfig-version.cmake
+[12.441s] -- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/package.xml
+[12.449s] Invoked command in '/home/cat/ros2_humble_ws/build/robot_core' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cat/ros2_humble_ws/build/robot_core

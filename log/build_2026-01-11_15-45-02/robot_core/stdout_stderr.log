@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target can_interface[0m
+[100%] Built target robot_controller
+[100%] Built target can_interface
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/lib/robot_core/robot_controller
+-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/lib/robot_core/can_interface
+-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/ament_index/resource_index/package_run_dependencies/robot_core
+-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/ament_index/resource_index/parent_prefix_path/robot_core
+-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/environment/path.sh
+-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/environment/path.dsv
+-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/local_setup.bash
+-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/local_setup.sh
+-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/local_setup.zsh
+-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/local_setup.dsv
+-- Symlinking: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/package.dsv
+-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/ament_index/resource_index/packages/robot_core
+-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/cmake/robot_coreConfig.cmake
+-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/cmake/robot_coreConfig-version.cmake
+-- Up-to-date symlink: /home/cat/ros2_humble_ws/install/robot_core/share/robot_core/package.xml

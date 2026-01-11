@@ -1,0 +1,6 @@
+Invoking command in '/home/cat/ros2_humble_ws/build/robot_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/cat/ros2_humble_ws/src/robot_core -DCMAKE_INSTALL_PREFIX=/home/cat/ros2_humble_ws/install/robot_core
+Invoked command in '/home/cat/ros2_humble_ws/build/robot_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/cat/ros2_humble_ws/src/robot_core -DCMAKE_INSTALL_PREFIX=/home/cat/ros2_humble_ws/install/robot_core
+Invoking command in '/home/cat/ros2_humble_ws/build/robot_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cat/ros2_humble_ws/build/robot_core -- -j8 -l8
+Invoked command in '/home/cat/ros2_humble_ws/build/robot_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cat/ros2_humble_ws/build/robot_core -- -j8 -l8
+Invoking command in '/home/cat/ros2_humble_ws/build/robot_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cat/ros2_humble_ws/build/robot_core
+Invoked command in '/home/cat/ros2_humble_ws/build/robot_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cat/ros2_humble_ws/build/robot_core

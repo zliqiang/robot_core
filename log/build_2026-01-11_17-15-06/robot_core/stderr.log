@@ -1,0 +1,17 @@
+[01m[K/home/cat/ros2_humble_ws/src/robot_core/src/can_interface.cpp:[m[K In constructor ‘[01m[KCanInterfaceNode::CanInterfaceNode()[m[K’:
+[01m[K/home/cat/ros2_humble_ws/src/robot_core/src/can_interface.cpp:31:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbitrate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   31 |         int [01;35m[Kbitrate[m[K = this->get_parameter("bitrate").as_int();
+      |             [01;35m[K^~~~~~~[m[K
+[01m[K/home/cat/ros2_humble_ws/src/robot_core/src/can_interface.cpp:32:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksample_point[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   32 |         double [01;35m[Ksample_point[m[K = this->get_parameter("sample_point").as_double();
+      |                [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/cat/ros2_humble_ws/src/robot_core/src/can_interface.cpp:33:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krestart_ms[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   33 |         int [01;35m[Krestart_ms[m[K = this->get_parameter("restart_ms").as_int();
+      |             [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/cat/ros2_humble_ws/src/robot_core/src/can_interface.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/cat/ros2_humble_ws/src/robot_core/src/can_interface.cpp:41:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   41 | int main([01;35m[Kint argc[m[K, char ** argv)
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/cat/ros2_humble_ws/src/robot_core/src/can_interface.cpp:41:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   41 | int main(int argc, [01;35m[Kchar ** argv[m[K)
+      |                    [01;35m[K~~~~~~~~^~~~[m[K
